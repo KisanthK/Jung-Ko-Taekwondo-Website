@@ -1,4 +1,7 @@
 /* Jung Ko Taekwondo Academy — styles */
+[hidden] {
+  display: none !important;
+}
 :root {
   --night: #0b1626; /* dojang at night / black-belt navy */
   --night-2: #13233a;
@@ -2409,4 +2412,16 @@ dialog::backdrop {
   font: 500 14px/1.4 var(--sans);
   color: var(--ink-2);
   margin-top: 14px;
+}
+
+/* schedule intro: printable schedule link sits with the description */
+.sc-intro {
+  display: grid;
+  gap: 16px;
+  justify-items: start;
+}
+.sc-intro .btn {
+  min-height: 44px;
+  padding: 0 20px;
+  font-size: 15px;
 }
